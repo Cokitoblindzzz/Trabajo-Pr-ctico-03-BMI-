@@ -9,7 +9,7 @@ int main(void) {
 	printf("Ingrese la altura en metros: ");
 	scanf("%f", &altura);
 	mc= peso / (altura * altura);
-	printf("Su indice de masa corporal el de: %.2f \n", mc);
+	printf("Su indice de masa corporal es de: %.2f \n", mc);
 	printf("    Indice    |  Condicion\n");
 	printf("-----------------------------\n");
 	printf("    <18.5     |  Bajo peso\n");
